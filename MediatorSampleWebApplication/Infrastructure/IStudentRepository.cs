@@ -1,4 +1,4 @@
-﻿using MediatorSample.WebApi.Domain.Student.Entity;
+﻿using MediatorSample.Domain.Student.Entity;
 
 namespace MediatorSample.WebApi.Infrastructure
 {

@@ -1,6 +1,6 @@
 ﻿using MediatR;
 
-namespace MediatorSample.WebApi.Domain.Student.Command
+namespace MediatorSample.Domain.Student.Command
 {
     public class StudentDeleteCommand : IRequest<string>
     {

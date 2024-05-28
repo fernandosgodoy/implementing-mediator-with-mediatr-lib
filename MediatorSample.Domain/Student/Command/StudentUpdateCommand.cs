@@ -1,4 +1,4 @@
-﻿namespace MediatorSample.WebApi.Domain.Student.Command
+﻿namespace MediatorSample.Domain.Student.Command
 {
     public class StudentUpdateCommand
         : StudentCreateCommand

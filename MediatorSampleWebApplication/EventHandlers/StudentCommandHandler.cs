@@ -1,7 +1,7 @@
-﻿using MediatorSample.WebApi.Domain.Student.Command;
+﻿using MediatorSample.Domain.Student.Command;
+using MediatorSample.Domain.Student.Entity;
 using MediatorSample.WebApi.Infrastructure;
 using MediatorSample.WebApi.Notifications;
-using MediatorSample.WebApi.Domain.Student.Entity;
 using MediatR;
 
 namespace MediatorSample.WebApi.EventHandlers

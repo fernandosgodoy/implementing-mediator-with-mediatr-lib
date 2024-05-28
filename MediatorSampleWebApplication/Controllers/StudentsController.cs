@@ -1,4 +1,4 @@
-﻿using MediatorSample.WebApi.Domain.Student.Command;
+﻿using MediatorSample.Domain.Student.Command;
 using MediatorSample.WebApi.Infrastructure;
 using MediatR;
 using Microsoft.AspNetCore.Http;
