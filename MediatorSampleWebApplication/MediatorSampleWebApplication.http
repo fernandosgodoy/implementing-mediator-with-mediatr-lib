@@ -1,0 +1,6 @@
+@MediatorSampleWebApplication_HostAddress = http://localhost:5080
+
+GET {{MediatorSampleWebApplication_HostAddress}}/api/students/
+Accept: application/json
+
+###
