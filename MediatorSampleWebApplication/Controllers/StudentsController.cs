@@ -1,10 +1,10 @@
-﻿using MediatorSampleWebApi.Domain.Student.Command;
-using MediatorSampleWebApi.Infrastructure;
+﻿using MediatorSample.WebApi.Domain.Student.Command;
+using MediatorSample.WebApi.Infrastructure;
 using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace MediatorSampleWebApi.Controllers
+namespace MediatorSample.WebApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

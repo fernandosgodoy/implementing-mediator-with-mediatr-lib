@@ -1,10 +1,10 @@
-﻿using MediatorSampleWebApi.Domain.Student.Command;
-using MediatorSampleWebApi.Domain.Student.Entity;
-using MediatorSampleWebApi.Infrastructure;
-using MediatorSampleWebApi.Notifications;
+﻿using MediatorSample.WebApi.Domain.Student.Command;
+using MediatorSample.WebApi.Infrastructure;
+using MediatorSample.WebApi.Notifications;
+using MediatorSample.WebApi.Domain.Student.Entity;
 using MediatR;
 
-namespace MediatorSampleWebApi.EventHandlers
+namespace MediatorSample.WebApi.EventHandlers
 {
     public class StudentCommandHandler
         : IRequestHandler<StudentCreateCommand, string>,

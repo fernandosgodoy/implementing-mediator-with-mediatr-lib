@@ -1,4 +1,4 @@
-﻿namespace MediatorSampleWebApi.Notifications
+﻿namespace MediatorSample.WebApi.Notifications
 {
     public enum ActionNotification
     {

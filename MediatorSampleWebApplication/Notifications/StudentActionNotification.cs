@@ -1,6 +1,6 @@
 ﻿using MediatR;
 
-namespace MediatorSampleWebApi.Notifications
+namespace MediatorSample.WebApi.Notifications
 {
     public class StudentActionNotification
         : INotification
