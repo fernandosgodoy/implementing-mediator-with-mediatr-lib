@@ -1,10 +1,10 @@
-﻿using MediatorSampleWebApplication.Domain.Student.Command;
-using MediatorSampleWebApplication.Infrastructure;
+﻿using MediatorSampleWebApi.Domain.Student.Command;
+using MediatorSampleWebApi.Infrastructure;
 using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace MediatorSampleWebApplication.Controllers
+namespace MediatorSampleWebApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
@@ -13,10 +13,10 @@ namespace MediatorSampleWebApplication.Controllers
         private readonly IMediator _mediator;
         private readonly IStudentRepository _studentRepository;
         public StudentsController(IMediator mediator,
-            IStudentRepository studentRepository) 
+            IStudentRepository studentRepository)
         {
             _mediator = mediator;
-            _studentRepository = studentRepository; 
+            _studentRepository = studentRepository;
         }
         [HttpGet]
         public async Task<IActionResult> GetAllAsync() =>
@@ -31,7 +31,7 @@ namespace MediatorSampleWebApplication.Controllers
         public async Task<IActionResult> PutAsync(StudentUpdateCommand command) =>
             Ok(await _mediator.Send(command));
         [HttpDelete("{id:int}")]
-        public async Task<IActionResult> DeleteAsync(int id) 
+        public async Task<IActionResult> DeleteAsync(int id)
         {
             var dto = new StudentDeleteCommand { Id = id };
             return Ok(await _mediator.Send(dto));

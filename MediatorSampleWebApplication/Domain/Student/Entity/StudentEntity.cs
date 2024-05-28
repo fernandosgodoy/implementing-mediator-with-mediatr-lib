@@ -1,4 +1,4 @@
-﻿namespace MediatorSampleWebApplication.Domain.Student.Entity
+﻿namespace MediatorSampleWebApi.Domain.Student.Entity
 {
     public class StudentEntity
     {

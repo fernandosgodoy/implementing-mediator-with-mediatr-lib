@@ -1,13 +1,13 @@
-﻿using MediatorSampleWebApplication.Domain.Student.Entity;
+﻿using MediatorSampleWebApi.Domain.Student.Entity;
 
-namespace MediatorSampleWebApplication.Infrastructure
+namespace MediatorSampleWebApi.Infrastructure
 {
     public class StudentRepository
         : IStudentRepository
     {
         public List<StudentEntity> Students { get; }
-        public StudentRepository() 
-        { 
+        public StudentRepository()
+        {
             Students = new List<StudentEntity>();
         }
         public async Task Delete(int id)
@@ -16,7 +16,7 @@ namespace MediatorSampleWebApplication.Infrastructure
             await Task.Run(() => Students.RemoveAt(index));
         }
 
-        public async Task<IEnumerable<StudentEntity>> GetAll() => 
+        public async Task<IEnumerable<StudentEntity>> GetAll() =>
             await Task.Run(() => Students);
 
         public async Task<StudentEntity> GetById(int id)

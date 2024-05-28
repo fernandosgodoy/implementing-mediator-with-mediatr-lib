@@ -1,6 +1,7 @@
+using MediatorSampleWebApi;
 using Microsoft.AspNetCore.Mvc;
 
-namespace MediatorSampleWebApplication.Controllers
+namespace MediatorSampleWebApi.Controllers
 {
     [ApiController]
     [Route("[controller]")]

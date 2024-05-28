@@ -1,6 +1,6 @@
-﻿namespace MediatorSampleWebApplication.Domain.Student.Command
+﻿namespace MediatorSampleWebApi.Domain.Student.Command
 {
-    public class StudentUpdateCommand 
+    public class StudentUpdateCommand
         : StudentCreateCommand
     {
     }

@@ -1,7 +1,7 @@
-using MediatorSampleWebApplication.Infrastructure;
+using MediatorSampleWebApi.Infrastructure;
 using MediatR;
 
-namespace MediatorSampleWebApplication
+namespace MediatorSampleWebApi
 {
     public class Program
     {
