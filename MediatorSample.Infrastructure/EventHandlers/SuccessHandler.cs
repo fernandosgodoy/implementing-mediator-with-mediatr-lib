@@ -1,7 +1,7 @@
-﻿using MediatorSample.WebApi.Notifications;
+﻿using MediatorSample.Infrastructure.Notifications;
 using MediatR;
 
-namespace MediatorSample.WebApi.EventHandlers
+namespace MediatorSample.Infrastructure.EventHandlers
 {
     public class SuccessHandler
         : INotificationHandler<StudentActionNotification>

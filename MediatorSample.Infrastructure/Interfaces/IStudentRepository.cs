@@ -1,6 +1,6 @@
 ﻿using MediatorSample.Domain.Student.Entity;
 
-namespace MediatorSample.WebApi.Infrastructure
+namespace MediatorSample.Infrastructure.Interfaces
 {
     public interface IStudentRepository
     {

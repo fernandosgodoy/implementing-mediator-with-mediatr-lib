@@ -1,4 +1,5 @@
-using MediatorSample.WebApi.Infrastructure;
+using MediatorSample.Infrastructure.Interfaces;
+using MediatorSample.Infrastructure.Repositories;
 using MediatR;
 
 namespace MediatorSample.WebApi

@@ -1,5 +1,5 @@
 ﻿using MediatorSample.Domain.Student.Command;
-using MediatorSample.WebApi.Infrastructure;
+using MediatorSample.Infrastructure.Interfaces;
 using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;

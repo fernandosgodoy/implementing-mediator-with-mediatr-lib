@@ -7,6 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Notifications\**" />
+    <Content Remove="Notifications\**" />
+    <EmbeddedResource Remove="Notifications\**" />
+    <None Remove="Notifications\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Remove="Controllers\WeatherForecastController.cs" />
   </ItemGroup>
 
@@ -17,6 +24,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\MediatorSample.Domain\MediatorSample.Domain.csproj" />
+    <ProjectReference Include="..\MediatorSample.Infrastructure\MediatorSample.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

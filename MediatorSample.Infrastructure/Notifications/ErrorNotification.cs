@@ -1,6 +1,6 @@
 ﻿using MediatR;
 
-namespace MediatorSample.WebApi.Notifications
+namespace MediatorSample.Infrastructure.Notifications
 {
     public class ErrorNotification
         : INotification
